@@ -3,7 +3,26 @@
   <PropertyGroup>
 	  <TargetFrameworks>net5.0-windows;net6.0-windows;netcoreapp3.1-windows;net45;net451;net452;net46;net461;net462;net47;net471;net472;net48;net40</TargetFrameworks>
 	  <UseWindowsForms>true</UseWindowsForms>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Authors>Dalk</Authors>
+	  <Description>A WinForms localizer</Description>
+	  <Copyright>Copyright (C) 2022 Dalk</Copyright>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/Dalk-GitHub/Dalk.WinformsTranslator</RepositoryUrl>
+	  <PackageTags>winfoms, localizer, translations</PackageTags>
+	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>   
+	  <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
