@@ -22,6 +22,7 @@ namespace Tests
         private void Form1_Load(object sender, EventArgs e)
         {
             Text = "#title";
+            msToolStripMenuItem.AddTranslations();
         }
 
         private void goGer_Click(object sender, EventArgs e)

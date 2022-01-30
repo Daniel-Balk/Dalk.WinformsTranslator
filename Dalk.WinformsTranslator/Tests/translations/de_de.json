@@ -2,5 +2,6 @@
   "test": "Dies ist ein de_de Test!",
   "title": "Beispielsfenster",
   "german": "Deutsch",
-  "english":  "Englisch"
+  "english": "Englisch",
+  "ms": "Endlich funktionieren auch die MenuStrips"
 }
