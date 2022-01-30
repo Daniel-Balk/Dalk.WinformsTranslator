@@ -11,6 +11,16 @@
 	  <RepositoryUrl>https://github.com/Dalk-GitHub/Dalk.WinformsTranslator</RepositoryUrl>
 	  <PackageTags>winfoms, localizer, translations</PackageTags>
 	  <PackageLicenseFile>LICENSE</PackageLicenseFile>
+	  <AssemblyVersion>1.0.1.0</AssemblyVersion>
+	  <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows|AnyCPU'">
+    <WarningLevel>5</WarningLevel>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-windows|AnyCPU'">
+    <WarningLevel>5</WarningLevel>
   </PropertyGroup>
 
   <ItemGroup>
